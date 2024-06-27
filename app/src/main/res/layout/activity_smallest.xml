@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number one"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Enter number"
+        android:textColorHint="#8A8585"
+        android:id="@+id/num1"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number two"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Enter number"
+        android:textColorHint="#8A8585"
+        android:id="@+id/num2"
+        android:inputType="number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND SMALLEST"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_margin="20px"
+        android:id="@+id/smallbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MENU  "
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_margin="20px"
+        android:id="@+id/backbtn"/>
+
+</LinearLayout>

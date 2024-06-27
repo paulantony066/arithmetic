@@ -1,0 +1,35 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND LARGEST NUMBER"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_margin="30px"
+        android:id="@+id/large"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND SMALLEST NUMBER"
+        android:textColor="#ffffff"
+        android:background="#454040"
+        android:layout_margin="30px"
+        android:id="@+id/small"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ODD OR EVEN"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_margin="30px"
+        android:id="@+id/oddeven"/>
+</LinearLayout>
